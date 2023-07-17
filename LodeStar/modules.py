@@ -88,3 +88,17 @@ class RotoTranslation:
 #         output[k,:]
 #         original = rototranslations[k].inverse()
 #         # l1 dist(output, original)
+
+
+class Lodestar:
+    def __init__(self, N, M): #parameters: input tensor shape, output shape, make a 
+        self.output = OutputHead #this output head can be of any type --> provides an interface
+
+#abstract class
+class OutputHead:
+    def __init__(self):
+        
+    def output_tensor(self, ):
+
+
+class 
