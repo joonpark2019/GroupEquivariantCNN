@@ -1,0 +1,10 @@
+# Data (due to the size)
+data/
+
+# Results (due to the size)
+results/
+
+# cache files
+*.pyc
+*.pyo
+.vscode
